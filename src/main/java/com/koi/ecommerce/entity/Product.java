@@ -32,6 +32,9 @@ public class Product {
     @Column(name = "image_url")
     private String imageUrl;
 
+    @Column(name = "favorite")
+    private boolean favorite;
+
     @Column(name = "active")
     private boolean active;
 
